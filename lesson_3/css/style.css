@@ -1,0 +1,26 @@
+#content {
+	color: brown;
+}
+
+h2 {
+	color: crimson;
+}
+
+h3 {
+	color: firebrick;
+}
+
+.list a {
+	color: aqua;
+}
+
+span {
+	color: green;
+}
+.back a {
+	color: yellow;
+}
+
+p {
+	color: darkblue;
+}
