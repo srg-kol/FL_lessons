@@ -1,0 +1,47 @@
+* {
+	color: rgb(40, 255, 68);
+}
+
+#lists {
+	color: green;
+}
+
+.item * {
+	color: crimson;
+}
+
+a {
+	color: rgb(0, 132, 255);
+}
+
+h1,
+h2 {
+	color: blue;
+}
+
+.text > p {
+	color: gray;
+}
+
+.text ~ p{
+	color: orange;
+}
+
+.text + p {
+	color: green;
+} 
+
+body {
+	font-family: Roboto;
+}
+
+h1 {
+	font-family: Larsseit;
+	font-weight: 900;
+} 
+
+.content * {
+	font-family: Lato;
+	font-weight: 900;
+} 
+
