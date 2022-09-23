@@ -1,0 +1,70 @@
+body {
+	font-family: "Georgia", serif;
+	font-size: 19px;
+	line-height: 1.5;
+}
+
+h1 {
+	font-family: "GofarScript", serif;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	line-height: 1.2;
+	margin-bottom: 25px;
+	text-shadow: 2px 2px 4px #000;
+	text-decoration: overline;
+}
+
+h2 {
+	font-family: "Gofar", serif;
+	font-size: 20px;
+	color: rgba(255, 6, 6, 0.911);
+	margin-bottom: 20px;
+	word-spacing: 5px;
+	letter-spacing: 7px;
+	text-decoration: line-through;
+	text-indent: 20px;
+}
+
+img,
+p {
+	margin-bottom: 25px;
+}
+
+span {
+	color: grey;
+	font-size: 20px;
+	text-transform: uppercase;
+
+}
+
+.top {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.cat-descr,
+.octopus-descr,
+.sheep-descr,
+.monkey-descr,
+.raven-descr {
+	font-family: "Inconsolata", serif;
+	font-weight: 500;
+	margin-bottom: 45px;
+}
+
+.cat-text a {
+	text-decoration: underline;
+}
+
+.monkey-container {
+	width: 700px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	text-indent: none;
+}
+

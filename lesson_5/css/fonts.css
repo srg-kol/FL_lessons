@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+@font-face {
+	font-family: Georgia;
+	src: url("../fonts/Georgia-Regular.woff2") format("woff2"), url("../fonts/Georgia-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: GofarScript;
+	src: url("../fonts/GofarScript.woff2") format("woff2"), url("../fonts/GofarScript.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Gofar;
+	src: url("../fonts/GofarSerif.woff2") format("woff2"), url("../fonts/GofarSerif.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
