@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 11</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+
+				<div class="logo">
+					<a class="logo__link" href="#" >
+						<img src="img/vintage.svg" alt="logo">
+					</a>
+				</div>
+
+				<ul class="header__menu menu">
+					<li class="menu__item"><a href="#" class="menu__link">Position</a>
+						<ul class="sub-menu">
+							<li class="sub-menu__item"><a class="sub-menu__link" href="#">Relative</a></li>
+							<li class="sub-menu__item"><a class="sub-menu__link" href="#">Absolute</a></li>
+							<li class="sub-menu__item"><a class="sub-menu__link" href="#">Fixed</a></li>
+							<li class="sub-menu__item"><a class="sub-menu__link" href="#">Sticky</a></li>
+						</ul>
+					</li>
+
+					<li class="menu__item"><a class="menu__link" href="#">Z-index</a>
+						<ul class="sub-menu sub-menu--left">
+							<li class="sub-menu__item"><a class="sub-menu__link" href="#">Auto</a></li>
+							<li class="sub-menu__item"><a class="sub-menu__link" href="#">Integer</a></li>
+						</ul>
+					</li>
+
+					<li class="menu__item"><a class="menu__link" href="#">Car</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<main class="position">
+			<div class="position__container">
+
+				<div class="position__relative style relative">
+					<div class="relative__item relative__item--green">Block 1</div>
+					<div class="relative__item relative__item--red">Relative</div>
+					<div class="relative__item relative__item--yellow">Block 3</div>
+				</div>
+
+				<div class="position__absolute style absolut">
+					<div class="absolute__item absolute__item--green">Block 1</div>
+					<div class="absolute__item absolute__item--red">Absolute</div>
+					<div class="absolute__item absolute__item--yellow">Block 3</div>
+				</div>
+
+				<div class="position__fixed style fixed">
+					<div class="fixed__item fixed__item--green">Block 1</div>
+					<div class="fixed__item fixed__item--red">Fixed</div>
+					<div class="fixed__item fixed__item--yellow">Block 3</div>
+				</div>
+
+				<div class="position__sticky style sticky">
+					<div class="sticky__item sticky__item--green">Block 1</div>
+					<div class="sticky__item sticky__item--red">Sticky</div>
+					<div class="sticky__item sticky__item--yellow">Block 3</div>
+				</div>
+			</div>
+
+			<section class="car">
+				<div class="car__container">
+					<div class="car__sections section">
+
+						<div class="section__car">
+							<img src="img/car.svg" alt="Car">
+						</div>
+
+						<div class="section__wheel-1">
+							<img src="img/wheel.png" alt="Wheel">
+						</div>
+
+						<div class="section__wheel-2">
+							<img src="img/wheel.png" alt="Wheel">
+						</div>
+
+						<div class="section__lamp"></div>						
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>
