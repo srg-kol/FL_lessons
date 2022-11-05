@@ -1,0 +1,173 @@
+.wrapper {
+    overflow: hidden;
+    position: relative;
+    min-height: 100%;
+}
+
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    background: linear-gradient(135deg, rgba(254, 252, 234, 1) 0%, rgba(241, 218, 54, 1) 58%);
+}
+
+.header__title {
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 100px;
+}
+
+.puzzles {
+    margin-left: 50px;
+}
+
+.puzzles {
+    position: relative;
+}
+
+.puzzle-2,
+.puzzle-3,
+.puzzle-4,
+.puzzle-5 {
+    position: absolute;
+    top: 0;
+}
+
+.puzzle-2,
+.puzzle-7,
+.puzzle-12,
+.puzzle-17,
+.puzzle-22 {
+    left: 154px;
+}
+
+.puzzle-3,
+.puzzle-8,
+.puzzle-18,
+.puzzle-23 {
+    left: 307px;
+}
+
+.puzzle-4,
+.puzzle-9,
+.puzzle-14,
+.puzzle-19,
+.puzzle-24 {
+    left: 461px;
+}
+
+.puzzle-5,
+.puzzle-10,
+.puzzle-15,
+.puzzle-25 {
+    left: 614px;
+}
+
+.puzzle-6,
+.puzzle-7,
+.puzzle-8,
+.puzzle-9,
+.puzzle-10 {
+    position: absolute;
+    top: 86px;
+}
+
+.puzzle-11,
+.puzzle-12,
+.puzzle-14,
+.puzzle-15 {
+    position: absolute;
+    top: 173px;
+}
+
+.puzzle-16,
+.puzzle-17,
+.puzzle-18,
+.puzzle-19 {
+    position: absolute;
+    top: 259px;
+}
+
+.puzzle-21,
+.puzzle-22,
+.puzzle-23,
+.puzzle-24,
+.puzzle-25 {
+    position: absolute;
+    top: 346px;
+}
+
+.puzzle-1:hover {
+    transform: translate(-80px);
+    transition: all 0.3s ease;
+}
+
+.puzzle-8:hover img {
+    transform: scale(0.8);
+}
+
+.puzzle-10 {
+    perspective: 400px;
+    transform-style: flat;
+}
+
+.puzzle-10:hover img {
+    transform: rotateY(50deg);
+}
+
+.puzzle-12:hover img {
+    transform-origin: 0 0;
+    transform: rotate(-45deg);
+}
+
+.puzzle-13 {
+    position: absolute;
+    right: 100px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.puzzle-13:hover {
+    top: 173px;
+    right: 689px;
+    transform: rotate(0);
+}
+
+.puzzle-16:hover img {
+    transform: rotate(10deg);
+}
+
+.puzzle-19:hover img {
+    transform: skew(-20deg);
+}
+
+.puzzle-20 {
+    position: absolute;
+    right: 10px;
+    transform: rotate(105deg);
+}
+
+.puzzle-20:hover {
+    top: 259px;
+    right: 382px;
+    transform: rotate(0);
+}
+
+.puzzle-23 {
+    perspective: 400px;
+    perspective-origin: center;
+}
+
+.puzzle-23:hover img {
+    transform: rotateX(45deg);
+}
+
+.puzzle-25:hover {
+    transform: translate(80px);
+    transition: all 0.3s ease;
+}
